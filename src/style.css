@@ -1,5 +1,17 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+
+.playing-card{
+    height: 60dvh;
+    aspect-ratio: .70;
+    background-color: white;
+    border-radius: 6%;
+}
+
+.bottom-suit{
+    transform: rotate(180deg);
+}
+
+.value{
+    font-size: 6rem;
 }
